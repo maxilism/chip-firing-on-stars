@@ -1,0 +1,22 @@
+import StarFiring
+#print axioms StarFiring.reachable_physical
+#print axioms StarFiring.reachable_stable_iff
+#print axioms StarFiring.Counts.stable_counts
+#print axioms StarFiring.Counts.stable_shape
+#print axioms StarFiring.Cert.sound
+#print axioms StarFiring.Run.normalize
+#print axioms StarFiring.stable_reachable_iff
+#print axioms StarFiring.realizable_iff_certified
+#print axioms StarFiring.Realizable.permutation
+#print axioms StarFiring.Realizable.avoids321
+#print axioms StarFiring.Witness.length_moves
+#print axioms StarFiring.Witness.run14
+#print axioms StarFiring.Witness.realizable14
+#print axioms StarFiring.Witness.validCert14
+#print axioms StarFiring.Witness.cert14_realizable
+#print axioms StarFiring.Padding.U_le_iff
+#print axioms StarFiring.Padding.matchValue_suffix_count
+#print axioms StarFiring.Padding.gap_certificate
+#print axioms StarFiring.Padding.realizable_pad_of_gap
+#print axioms StarFiring.Padding.avoids321_iff_exists_pad
+#print axioms StarFiring.Padding.realizable_pad_of_displacement

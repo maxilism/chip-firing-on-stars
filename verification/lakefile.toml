@@ -1,0 +1,6 @@
+name = "star_firing"
+version = "0.1.0"
+defaultTargets = ["StarFiring"]
+
+[[lean_lib]]
+name = "StarFiring"

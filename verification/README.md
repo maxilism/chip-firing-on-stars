@@ -1,4 +1,6 @@
-# Lean verification
+# Verification
+
+## Lean proofs
 
 The development starts with individual legal firings. Its main results are
 
@@ -17,3 +19,12 @@ lake env lean PaddingCases.lean
 ```
 
 The first command builds the proofs with the pinned Lean toolchain. The other two report the axioms used and check concrete padding examples.
+
+## Finite checks
+
+Run these from this directory with Python 3.10 or later. Both use the standard library.
+
+- `python3 checks/insertion.py` explores every legal continuation of 625 small augmented boards, replays the five-cell construction on 2,039 tableaux, and checks the hook formula for 529 rectangles.
+- `python3 checks/random_firing.py` enumerates every first batch for two chips per arm through ten arms. For three arms with three chips each, it compares direct random firing with the paper's batch description at all 47 endpoints.
+
+The general insertion theorem and the probability limit are proved in the [insertion](../papers/column-insertion.pdf) and [random-firing](../papers/random-firing.pdf) papers.
